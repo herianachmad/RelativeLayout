@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/a"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:textColor="#ffffff"
+        android:textSize="35sp"
+        android:layout_centerInParent="true"
+        android:background="@android:color/darker_gray"
+        android:gravity="center"
+        android:text="id A" />
+
+    <TextView
+        android:layout_below="@+id/a"
+        android:id="@+id/b"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
+        android:layout_centerInParent="true"
+        android:background="@android:color/darker_gray"
+        android:gravity="center"
+        android:text="id B"/>
+
+    <TextView
+        android:layout_above="@+id/a"
+        android:id="@+id/c"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
+        android:layout_centerInParent="true"
+        android:background="@android:color/darker_gray"
+        android:gravity="center"
+        android:text="id C"
+        />
+
+    <TextView
+        android:layout_toLeftOf="@+id/a"
+        android:id="@+id/d"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
+        android:layout_centerInParent="true"
+        android:background="@android:color/darker_gray"
+        android:gravity="center"
+        android:text="id D"
+        />
+
+    <TextView
+        android:layout_toRightOf="@+id/a"
+        android:id="@+id/e"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
+        android:layout_centerInParent="true"
+        android:background="@android:color/darker_gray"
+        android:gravity="center"
+        android:text="id E"
+        />
+</RelativeLayout>
+
